@@ -467,7 +467,7 @@ function drawTitle() {
     ctx.fillStyle = "#fff";
     ctx.textAlign = "center";
     ctx.font = "77px Quantico";
-    ctx.fillText('Escape from hand', canvas.width / 2, canvas.height / 2);
+    ctx.fillText('Escape from the hand', canvas.width / 2, canvas.height / 2);
 
     ctx.font="32px Quantico";
     ctx.fillText("Don't caught, collect it", canvas.width / 2, canvas.height / 2 + 73);
