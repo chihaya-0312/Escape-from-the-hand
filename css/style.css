@@ -11,6 +11,11 @@ canvas {
     left: 0;
     margin: 0;
     background: black;
+    z-index: 0;
+}
+
+.start, .return, .how-play, .menu, .about, .rule-page, .credit-page {
+    z-index: 1;
 }
 
 a{
