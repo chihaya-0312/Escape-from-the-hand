@@ -1,15 +1,15 @@
 body {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
     margin: 0;
+    overflow: hidden;
     background: black;
 }
 
 canvas {
     display: block;
-    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
     background: black;
 }
 
