@@ -538,7 +538,7 @@ function handShape() {
         ctx.lineWidth = 2;
         ctx.strokeRect(xList[i]-size/2-10, handY-10, size+20, size+20);};
         
-        ctx.font="25px DotGothic16";
+        ctx.font="26px Quantico";
         ctx.fillText(hands[i].name, xList[i], handY+size+50);
     };
   };
