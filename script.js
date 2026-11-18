@@ -116,15 +116,11 @@ function resize() {
   canvas.height = window.innerHeight;
 };
 
+resize();
 window.addEventListener("resize", resize);
 
 //ローディング画面
-window.addEventListener("load", async() => {
-  await document.fonts.ready;
-  switchHand();
-  resize();
-  main();
-  
+window.addEventListener("load", () => {  
   const loading = document.querySelector(".loading");
   const loadingEn = document.querySelector(".loading-en");
   const cover = document.querySelector(".transition-cover");
@@ -634,3 +630,7 @@ function switchHand() {
   handOpen = !handOpen;
   setTimeout(switchHand, 500);
 }
+
+switchHand();
+
+main();
